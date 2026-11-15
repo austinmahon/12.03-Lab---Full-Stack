@@ -11,7 +11,9 @@ block content
         span Completed
       else
         span Not Completed
-      form(method='POST' action='/delete')
+      .actions
+      a(href=`/edit/${val.id}`) Edit
+      form.delete-form(method='POST' action='/delete' style='display:inline;')
         input(type='hidden', name='id', value=val.id)
         button(type='submit') Delete
 

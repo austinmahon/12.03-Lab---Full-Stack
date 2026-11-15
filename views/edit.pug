@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1 Edit Task
+  
+  form(method='POST' action=`/update/${task.id}`)
+    label(for='task') Task:
+    input(type='text', name='task', id='task', value=task.task, required)
+    
+    div
+      label(for='completed') Completed:
+      input(type='checkbox', name='completed', id='completed', checked=(task.completed > 0))
+    
+    button(type='submit') Update Task
+  
+  p
+    a(href='/') Cancel
