@@ -1,11 +1,15 @@
-# CS208 Full Stack Final Project
+# CS208 Lab 12
 
 ## Documentation
 
 - Running the example project is documented [here](docs/example_project.md)
 - An example README is provided [here](docs/README_example.md)
 
-Students must **replace** this README with a README that is specific to your
-project. **IMPORTANT**: If you do not complete the README, your project will not
-be graded, and you will receive a zero. The TA will not guess how to set up,
-configure, and run your project.
+You should be able to do the following:
+See all the tasks on the home page. (Initially there will be none.)
+Add a new task with the form
+Delete a task
+Edit the task status
+Edit the task name
+Edit the task description
+Not add blank entries
